@@ -1,7 +1,7 @@
 {
   "name": "viheo",
-  "version": "1.0.1",
-  "description": "HTML5 Custom Video Player",
+  "version": "1.0.2",
+  "description": "React Custom Video Player",
   "main": "dist/index.js",
   "scripts": {
     "build": "npx babel src --out-dir dist",
