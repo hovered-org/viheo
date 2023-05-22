@@ -1,0 +1,31 @@
+{
+  "name": "viheo",
+  "version": "1.0.0",
+  "description": "HTML5 Custom Video Player",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-file index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hovered-org/viheo.git"
+  },
+  "keywords": [
+    "Player"
+  ],
+  "author": "HovSofts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hovered-org/viheo/issues"
+  },
+  "homepage": "https://github.com/hovered-org/viheo#readme",
+  "dependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-react": "^7.18.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
